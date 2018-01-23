@@ -96,8 +96,8 @@ describe('Recipes', function() {
     // request to the app, we update it with an `id` property so
     // we can make a second, PUT call to the app.
     const updateData = {
-      name: 'sandwich',
-      ingredients: ['bread', 'ham', 'cheese']
+      name: 'boiled white rice',
+      ingredients: ['1 cup white rice', '2 cups water', 'cheese']
     };
 
     return chai.request(app)
